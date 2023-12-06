@@ -24,7 +24,8 @@ The discovery strengthens the possibility of finding life elsewhere in our solar
 Europa has long been considered one of the top places to search for signs of life. 
 It has a huge global ocean beneath its frozen crust. This ocean is about 100 kilometers deep and contains twice as much water as all of Earth's oceans combined.
 """
+
 text2 = f"I am so angry rn you cant believe."
 
 
-print(get_sentiment(text2))
+# print(get_sentiment(text1))

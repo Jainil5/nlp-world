@@ -1,2 +1,3 @@
 venv
 backend/BBC News Summary
+backend/__pycache__/

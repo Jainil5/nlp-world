@@ -3,11 +3,11 @@ from process_text import filter_text
 
 
 model_name = 'facebook/bart-large-cnn'
-tokenizer = BartTokenizer.from_pretrained(model_name, cache_dir="backend/data")
+tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name)
 
 
-def generate_summary(input_text):
+def get_summary(input_text):
     text = filter_text(input_text)
     input_prompt = f"""
     You need to generate a summary of the text provided to you.
@@ -125,5 +125,5 @@ Ravi Patel
 [Your Contact Information]
 """
 
-print("\nSummary:")
-print(generate_summary(text2))
+# print("\nSummary:")
+# print(generate_summary(text2))
