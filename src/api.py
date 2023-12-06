@@ -3,7 +3,6 @@ from flask_restful import Api, Resource, reqparse
 from sentiment_cardiff import get_sentiment
 from summarization_bart import get_summary
 
-
 app = Flask(__name__)
 api = Api(app)
 

@@ -4,3 +4,4 @@ torch
 keras
 requests
 flask-restful
+streamlit
